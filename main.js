@@ -66,24 +66,27 @@ function isDivisible (one, two) {
 }
 console.log(isDivisible(4,2));
 
-//problem 7 - still working on finalizing as not working yet
-function oddNumbers() {
-  var random = Math.floor(Math.random() * 100);
+//problem 7
+function oddNumbers(random) {
+  var resultsArray= []
 
   if (random > 40)  {
-    for (var i = 0; i <= random; i++) {
+    for (var i = 40; i <= random; i++) {
       if (i % 2 !== 0) {
-      console.log(i);
+         resultsArray.push(i);
       }
     }
   }
 
-  if (random < 40) {
-    for (var i = 0; i >= random; i++) {
-      if (i % 2 !== 0) {
-        console.log(i);
+  else {
+      for (var j = 0; j <= random; j++) {
+        if (j % 2 !== 0) {
+        resultsArray.push(j);
       }
     }
   }
+      return resultsArray;
+
 }
-console.log(oddNumbers());
+var randomNum = Math.floor(Math.random() * 100);
+console.log(oddNumbers(randomNum));

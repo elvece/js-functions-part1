@@ -66,7 +66,7 @@ function isDivisible (one, two) {
 }
 console.log(isDivisible(4,2));
 
-//problem 7
+//problem 7 - still working on finalizing as not working yet
 function oddNumbers() {
   var random = Math.floor(Math.random() * 100);
 

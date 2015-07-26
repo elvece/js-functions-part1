@@ -1,13 +1,13 @@
 //example
 function test(str) {
-  return "test" + str
+  return "test" + str;
 }
 
-console.log(test("ing"))
+console.log(test("ing"));
 
 //problem 1
 function sum(num1,num2){
-  return num1 + num2
+  return num1 + num2;
 }
 
 console.log(sum(1,2));
@@ -17,7 +17,7 @@ function isEqual(foo, bar) {
   if (foo === bar){
   return true
  }
-  else { return false
+  else { return false;
  }
 };
 
@@ -28,7 +28,7 @@ console.log(isEqual("no","yes"));
 function discountPercentage(amount, discount) {
   var totalDiscount= amount * (discount*.01);
   if (totalDiscount > 100 || totalDiscount < 0) {
-    alert("Discount is absurd!")
+    alert("Discount is absurd!");
   }   return "$" + totalDiscount;
 }
 console.log(discountPercentage(100, 25));
@@ -42,7 +42,7 @@ function stringCapitalize(string){
   } return intoArray.join(" ");
 }
 
-console.log(stringCapitalize("lucy victoria cifferello"))
+console.log(stringCapitalize("lucy victoria cifferello"));
 
 //problem 5
 function evenNumber() {
@@ -58,17 +58,17 @@ console.log(evenNumber());
 //problem 6
 function isDivisible (one, two) {
   if (one % two === 0){
-    return true
+    return true;
   }
   else {
-    return false
+    return false;
   }
 }
 console.log(isDivisible(4,2));
 
 //problem 7
 function oddNumbers(random) {
-  var resultsArray= []
+  var resultsArray= [];
 
   if (random > 40)  {
     for (var i = 40; i <= random; i++) {

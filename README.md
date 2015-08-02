@@ -1,4 +1,6 @@
-# JavaScript Functions - part 1
+## JavaScript Functions - Part 1
+
+***This repo contains my solutions to the following exercise:***
 
 1. Create a blank, valid HTML5 document.
 1. Create a JavaScript file
@@ -14,7 +16,7 @@ function test(str) {
 console.log(test("ing"))
 ```
 
-## Problems
+### Problems
 
 1. Define a function called `sum` that takes two numbers as arguments and returns their sum.
 1. Define a function called `isEqual` that takes two arguments and returns a boolean. Return true if the two arguments are equal and return false if they are not.
